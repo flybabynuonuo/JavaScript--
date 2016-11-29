@@ -1,0 +1,30 @@
+/*全局开始*/
+html,body{ height:100%; }
+body{ font-size:100%;font-family: "微软雅黑";}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,table,th,td,tr,iframe,a{ margin:0;padding:0; }
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+table{ border-collapse:collapse; border-spacing:0; }
+img{ border:0; max-width:100%;}
+li{ list-style:none; }
+input{ border:none;-webkit-appearance:none;outline:none;}
+a:hover, a:visited, a:link, a:active { text-decoration: none;outline:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{content:'';display:block;height:0;overflow:hidden;clear:both;}
+.clearfix{*zoom:1;}
+/*全局结束*/
+article{text-align: center;margin:20px 3%;}
+dt{padding:2px 0;}
+dd{text-indent: 1em;padding:2px 0;}
+.content{padding:0 5% 5%;}
+section{margin:3%;}
+.p1{margin-top:50px;}
+.title1{padding:5px 0;font-size:22px;font-weight: bold;padding-top:80px;}
+.title2{padding:5px 0;text-indent: 1em;font-size:19px;}
+#ScrollBtn{position:fixed;bottom:20px;right:20px;width:50px;height:50px;border-radius: 25px;background:#007FFF;line-height: 50px;text-align: center;color:#fff;font-size:14px;cursor: pointer;}
+.pCon{margin:1em 2em;}
+.pCon p{line-height:1.8;margin-bottom:10px;}
+.pCon p span{font-weight: bold;}
+.pCon p i{font-weight: bold;font-style: normal;color:#FF0000;}
+.code pre{background:#f1f1f1;font-size:16px;line-height:1.8;padding:1em 0 0;font-family: "Microsoft YaHei", sans-serif;border-radius: 4px;}
+
